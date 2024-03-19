@@ -1,13 +1,16 @@
+/* This feature applies for all components on the webpage, setting default pdding and margins  */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Sets the background color of the entire body  */
 body {
     background-color: #d9dcd6;
 }
 
+/* Applies to everything inside the header tag, including the webpage links to set font style and color  */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +18,16 @@ header {
     color: #ffffff;
 }
 
+/* Applies to header title specifically  */
 header h1 {
-    display: inline-block;
+    display: inline;
     font-size: 48px;
 }
-
+/* Sets the color inside the word "Horiseon" for the seo class  */
 header h1 .seo {
     color: #d9dcd6;
 }
-
+/* Next three are applying to specific elements inside the header tag  */
 header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -40,16 +44,17 @@ header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* Applies for anything with an "a" tag, in this case, the links  */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
-p {
+/* Applies for all the article and article tags on the webpage  */
+article {
     font-size: 16px;
 }
 
+/* This is for the background image at the top of the webpage, centering it and apropiatley sizing it  */
 .hero {
     height: 800px;
     width: 100%;
@@ -58,17 +63,17 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* Applies to the class, float-left and has specific margins for compaibility*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* Applies to the class, float-right and has specific margins for compaibility*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* The next several apply to the article card classes and style their appearance, font size, and margins  */
 .content {
     width: 75%;
     display: inline-block;
@@ -187,14 +192,14 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.footer {
+/* Applies to the footer tag  */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
